@@ -1,0 +1,167 @@
+@import url(font.css);
+@import url(media.css);
+
+.menu__link {
+    font-family: "Roboto";
+    font-size: 18;
+    font-weight: 700;
+    color: #3A3838;
+    padding: 15px;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: 279px;
+}
+
+.bb{
+    color: #EF4423;
+ }
+
+
+.kartinka{
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    min-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h6 {
+    font-size: 19px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.card div {
+    padding: 0 15px 15px 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #ebebeb;
+}
+
+.df {
+    flex-direction: column-reverse;
+}
+
+.r {
+    background: #B71C1C;
+}
+
+.p {
+    background: #6A1B9A;
+}
+
+.b {
+    background: #303f9f;
+}
+
+.g {
+    background: #00695c;
+}
+
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.card p {
+    margin-top: 8px;
+}
+
+.novosti h2 {
+    text-align: center;
+    color: #3a3838;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 40px 0 40px;
+}
+
+.rod {
+    display: flex;
+}
+
+.korobka {
+    background: #ededed;
+
+}
+
+.korobka h1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #3a3838;
+}
+
+.korobka p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #686868;
+}
+
+.elem {
+    margin-left: 30px;
+}
+
+
+.foot {
+    background: #3a3838;
+    margin-top: 50px;
+}
+
+.foot .menu__link {
+    color: #fff;
+}
+
+.foot .bc {
+    color: #ef4423; 
+}
+
+
